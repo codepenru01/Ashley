@@ -1,0 +1,77 @@
+.day {
+    background-image: url('../../images/bgc__white.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.day__text {
+    margin-left: 30px;
+}
+
+.day__about {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #262626;
+    margin-bottom: 11px;
+}
+
+.day__heading {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #262626;
+    width: 234px;
+    margin-bottom: 39px;
+}
+
+.day__fresh {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #262626;
+    width: 285px;
+    margin-bottom: 20px;
+}
+
+.day__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #262626;
+    width: 308px;
+    margin-bottom: 21px;
+}
+
+.day__link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #262626;
+    border-bottom: 1px solid #262626;
+}
+
+@media only screen and (max-width: 770px) {
+    .day {
+        background-image: url(../../images/bgc__white.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 720px;
+        height: 400px;
+    }
+
+    .girl__img {
+        width: 343px;
+        height: 334px;
+    }
+}

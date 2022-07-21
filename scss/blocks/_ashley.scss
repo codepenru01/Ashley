@@ -1,0 +1,53 @@
+.ashley {
+    display: flex;
+}
+
+.topup__text {
+    margin-right: 515px;
+    margin-top: 736px;
+    margin-left: 40px;
+    width: 160px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 5px;
+}
+
+.ashley__lemon {
+    background-image: url('../../images/bgc__lemon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.lemon__text {
+    margin-right: 515px;
+    margin-top: 736px;
+    margin-left: 40px;
+    width: 171px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 5px;
+}
+
+.ashley__topup {
+    background-image: url('../../images/bgc__topup.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+@media only screen and (max-width: 770px) {
+    .ashley__lemon {
+        background-image: url(../../images/bgc__lemon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 360px;
+    }
+
+    .ashley__topup {
+        background-image: url(../../images/bgc__topup.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 360px;
+    }
+}

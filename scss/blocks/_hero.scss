@@ -1,0 +1,33 @@
+.hero {
+    background-image: url('../../images/bgc__brown.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 800px;
+}
+
+.hero__logo {
+    background-image: url('../../images/hand.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1065px;
+    height: 688px;
+}
+
+@media only screen and (max-width: 770px) {
+    .hero{
+        background-image: url(../../images/bgc__brown.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 720px;
+        height: 400px;
+    }
+
+    .hero__logo {
+        background-image: url(../../images/hand.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 540px;
+        height: 344px;
+    }
+}

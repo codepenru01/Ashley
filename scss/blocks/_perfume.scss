@@ -1,0 +1,33 @@
+.perfume {
+    background-image: url('../../images/bgc__pink.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 800px;
+}
+
+.perfume__girl {
+    background-image: url('../../images/bgc__girl.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1065px;
+    height: 688px;
+}
+
+@media only screen and (max-width: 770px) {
+    .perfume {
+        background-image: url(../../images/bgc__topup.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100px;
+        width: 130px;
+    }
+
+    .perfume__girl {
+        background-image: url(../../images/bgc__girl.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 533px;
+        height: 344px;
+    }
+}

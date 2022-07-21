@@ -1,0 +1,22 @@
+.footer-inner {
+    background: #262626;
+    height: 139px;
+    width: 1440px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.form__label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #cccccc;
+}
